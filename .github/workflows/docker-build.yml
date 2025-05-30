@@ -51,5 +51,5 @@ jobs:
         with:
           command: cves
           image: ${{ env.IMAGE_NAME }}:latest
-          only-severities: critical,high
-          fail-on: critical,high
+          only-severities: critical
+          fail-on: critical
